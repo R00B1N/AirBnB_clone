@@ -87,7 +87,7 @@ class HBNBCommand(cmd.Cmd):
         if (self.check_if_created(_line, ln_arg) != 1):
 
             obt_inst = _line[0] + "." + _line[1]
-            dic_class = models.storage.all()
+            d_class = models.storage.all()
 
             if obt_inst in d_class.keys():
                 del d_class[obt_inst]
