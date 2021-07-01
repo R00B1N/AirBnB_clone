@@ -48,3 +48,7 @@ class HBNBCommand(cmd.Cmd):
         self._update(x[0], x[1])
     else:
         print("*** Unknown syntax: ", arg)
+        
+
+if __name__ == "__main__":
+    HBNBCommand().cmdloop()
