@@ -7,8 +7,8 @@ from models.amenity import Amenity
 from models.base_model import BaseModel
 
 
-class testfile(unittest.TestCase):
+class file_test(unittest.TestCase):
     """ unittests for Amenity class """
-    def test_inheritance(self):
-        """ checks if it inherits from BaseModel """
+    def inherit_testing(self):
+        """ function wich checks if it inherits is from BaseModel """
         self.assertTrue(issubclass(Amenity, BaseModel))
