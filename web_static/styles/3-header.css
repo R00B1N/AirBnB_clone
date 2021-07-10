@@ -1,9 +1,9 @@
-footer {
+header {
   background-color: white;
-  height: 60px;
+  height: 70px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: 20px center;
 }
